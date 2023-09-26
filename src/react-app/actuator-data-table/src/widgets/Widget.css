@@ -1,0 +1,46 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 100px;
+}
+
+.widget.green {
+  background-color: rgb(39, 182, 39);
+}
+
+.widget.red {
+  background-color: rgb(196, 30, 30);
+}
+
+.widget.orange {
+  background-color: rgb(199, 143, 37);
+}
+
+.widget.blue {
+  background-color: rgb(31, 31, 169);
+}
+
+.widget .left,
+.widget .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.widget .title {
+  font-weight: bold;
+  display: flex;
+  font-size: 14px;
+  color:white
+}
+
+.widget .update {
+  font-size: 14px;
+  font-weight: bold;
+  color:white
+}
